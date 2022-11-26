@@ -27,7 +27,13 @@ SNR_fit(Mtot,eta,z)
 
 ## Requirements
 
+To run the repo on your computer, you must have the following libraries installed.
 
+```
+numpy==1.21.5
+pandas==1.4.3
+scikit_learn==1.1.3
+```
 
 ## Report a bug
 
