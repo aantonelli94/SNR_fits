@@ -18,8 +18,8 @@ To predict the SNR, the total mass $M$, symmetric mass ratio $0 <\eta < 0.25$ an
 from xgsnr import *
 
 Mtot = 1e3 # Total mass in solar masses
-eta = 0.2 # Symmetric mass ratio in solar masses (between 0 and 0.25)
-z = 1
+eta = 0.2 # Symmetric mass ratio (between 0 and 0.25)
+z = 1 # redshift
 
 SNR_fit(Mtot,eta,z)
 ```
